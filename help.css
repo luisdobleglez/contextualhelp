@@ -1,0 +1,23 @@
+
+
+[data-ayuda]{
+    cursor:pointer;
+    position:relative;
+    display:inline-block;
+}
+[data-ayuda]::after{
+    font-size: 0.6em;
+    position:absolute;top:0;right:0;
+}
+#globo-ayuda{
+    position:absolute;top:28px;right:0;
+    min-width:150px;z-index:2;
+    
+    background: url(../img/triangulo.svg) top right no-repeat;
+}
+#globo-ayuda p{
+    color:white;background-color: black;
+    font-size:0.75em;padding:10px;border-radius: 8px;
+  
+}
+   
